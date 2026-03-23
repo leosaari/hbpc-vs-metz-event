@@ -4,223 +4,293 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HBPC vs Metz Handball — 27 Mai 2025 | Palais des Sports de Marseille</title>
-    <meta name="description" content="Match événement : HBPC vs Metz Handball le 27 mai 2025 à 20h00 au Palais des Sports de Marseille. Réservez vos places !">
+    <meta name="description" content="Match événement : HBPC vs Metz Handball le 27 mai 2025 à 20h00 au Palais des Sports de Marseille. Réservez vos places pour une soirée de handball d'exception !">
+    <!-- SEO: Open Graph -->
+    <meta property="og:title" content="HBPC vs Metz Handball — 27 Mai 2025">
+    <meta property="og:description" content="Match événement au Palais des Sports de Marseille. Handball Plan de Cuques reçoit Metz Handball le 27 mai 2025 à 20h00.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://leosaari.github.io/hbpc-vs-metz-event/">
+    <meta property="og:image" content="https://leosaari.github.io/hbpc-vs-metz-event/assets/logo-hbpc.png">
+    <meta property="og:locale" content="fr_FR">
+    <meta property="og:site_name" content="HBPC - Handball Plan de Cuques">
+    <!-- SEO: Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="HBPC vs Metz Handball — 27 Mai 2025">
+    <meta name="twitter:description" content="Match événement au Palais des Sports de Marseille. Réservez vos places !">
+    <meta name="twitter:image" content="https://leosaari.github.io/hbpc-vs-metz-event/assets/logo-hbpc.png">
+    <!-- SEO: Canonical -->
+    <link rel="canonical" href="https://leosaari.github.io/hbpc-vs-metz-event/">
+    <!-- Performance: Preconnect fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Performance: Preload critical font -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;600;700&display=swap" as="style">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <!-- Favicon -->
     <link rel="icon" href="assets/logo-hbpc.png" type="image/png">
+    <link rel="apple-touch-icon" href="assets/logo-hbpc.png">
+    <!-- PWA: Manifest -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#0D0D0D">
+    <!-- SEO: JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "HBPC vs Metz Handball",
+        "description": "Match de handball : Handball Plan de Cuques reçoit Metz Handball au Palais des Sports de Marseille.",
+        "startDate": "2025-05-27T20:00:00+02:00",
+        "doorTime": "2025-05-27T19:00:00+02:00",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+        "location": {
+            "@type": "Place",
+            "name": "Palais des Sports de Marseille",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "81 Rue Raymond Teisseire",
+                "addressLocality": "Marseille",
+                "postalCode": "13009",
+                "addressCountry": "FR"
+            }
+        },
+        "organizer": {
+            "@type": "SportsTeam",
+            "name": "Handball Plan de Cuques",
+            "url": "https://handball-plandecuques.fr"
+        },
+        "competitor": [
+            {
+                "@type": "SportsTeam",
+                "name": "Handball Plan de Cuques"
+            },
+            {
+                "@type": "SportsTeam",
+                "name": "Metz Handball"
+            }
+        ]
+    }
+    </script>
 </head>
 <body>
+    <!-- Accessibility: Skip to content -->
+    <a href="#evenement" class="skip-link">Aller au contenu principal</a>
+
     <!-- NAVBAR -->
-    <nav class="navbar" id="navbar">
-        <a href="https://handball-plandecuques.fr" target="_blank" rel="noopener" class="navbar-logo">
-            <img src="assets/logo-hbpc.png" alt="HBPC - Handball Plan de Cuques" width="56" height="56">
-        </a>
-        <button class="navbar-toggle" id="navToggle" aria-label="Menu de navigation">
-            <span></span><span></span><span></span>
-        </button>
-        <ul class="navbar-links" id="navLinks">
-            <li><a href="#hero">Accueil</a></li>
-            <li><a href="#evenement">L'Événement</a></li>
-            <li><a href="#equipes">Les Équipes</a></li>
-            <li><a href="#infos">Infos Pratiques</a></li>
-            <li><a href="#billetterie" class="nav-cta">Billetterie</a></li>
-        </ul>
-    </nav>
+    <header>
+        <nav class="navbar" id="navbar" aria-label="Navigation principale">
+            <a href="https://handball-plandecuques.fr" target="_blank" rel="noopener noreferrer" class="navbar-logo">
+                <img src="assets/logo-hbpc.png" alt="HBPC - Handball Plan de Cuques - Accueil" width="72" height="72">
+            </a>
+            <button class="navbar-toggle" id="navToggle" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="navLinks">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="navbar-links" id="navLinks" role="list">
+                <li><a href="#hero">Accueil</a></li>
+                <li><a href="#evenement">L'Événement</a></li>
+                <li><a href="#equipes">Les Équipes</a></li>
+                <li><a href="#infos">Infos Pratiques</a></li>
+                <li><a href="#billetterie" class="nav-cta">Billetterie</a></li>
+            </ul>
+        </nav>
+    </header>
 
     <!-- HERO HEADER -->
-    <section class="hero" id="hero">
+    <section class="hero" id="hero" aria-label="Présentation du match">
         <div class="hero-video-wrapper">
-            <video class="hero-video" autoplay muted loop playsinline>
-                <source src="assets/hero-video.mov" type="video/quicktime">
+            <video class="hero-video" autoplay muted loop playsinline preload="metadata">
                 <source src="assets/hero-video.mp4" type="video/mp4">
+                <source src="assets/hero-video.mov" type="video/quicktime">
             </video>
             <div class="hero-video-overlay"></div>
-            <!-- TikTok logo masks -->
             <div class="tiktok-mask"></div>
             <div class="tiktok-mask-left"></div>
         </div>
         <div class="hero-content">
             <div class="hero-logos">
-                <img src="assets/logo-hbpc.png" alt="Logo HBPC" class="hero-logo hero-logo-hbpc" width="200" height="200">
-                <div class="vs-badge">VS</div>
+                <img src="assets/logo-hbpc.png" alt="Logo HBPC - Handball Plan de Cuques" class="hero-logo hero-logo-hbpc" width="200" height="200">
+                <div class="vs-badge" aria-hidden="true">VS</div>
                 <img src="assets/metz-handball.png" alt="Logo Metz Handball" class="hero-logo hero-logo-metz" width="160" height="160">
             </div>
             <h1 class="hero-title">HBPC <span class="gold">vs</span> METZ HANDBALL</h1>
             <div class="hero-meta">
-                <p class="hero-date">27 MAI 2025 — 20H00</p>
+                <p class="hero-date"><time datetime="2025-05-27T20:00:00+02:00">27 MAI 2025 — 20H00</time></p>
                 <p class="hero-venue">PALAIS DES SPORTS DE MARSEILLE</p>
             </div>
             <a href="#billetterie" class="btn btn-primary btn-lg">RÉSERVER MES PLACES</a>
         </div>
-        <a href="#evenement" class="scroll-indicator" aria-label="Défiler vers le bas">
-            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <a href="#evenement" class="scroll-indicator" aria-label="Défiler vers le contenu">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
                 <path d="M7 13l5 5 5-5M7 6l5 5 5-5"/>
             </svg>
         </a>
     </section>
 
-    <!-- SECTION PRÉSENTATION -->
-    <section class="section section-event" id="evenement">
-        <div class="container">
-            <h2 class="section-title animate-on-scroll">UNE SOIRÉE DE HANDBALL<br><span class="gold">D'EXCEPTION</span></h2>
-            <p class="section-text animate-on-scroll">
-                Le Handball Plan de Cuques accueille le prestigieux Metz Handball pour un affrontement d'anthologie au Palais des Sports de Marseille.
-                Une soirée sous haute tension où passion, intensité et spectacle seront au rendez-vous.
-                Vivez l'émotion du handball au plus près.
-            </p>
-            <div class="countdown animate-scale" id="countdown">
-                <div class="countdown-item">
-                    <span class="countdown-value" id="countdown-days">00</span>
-                    <span class="countdown-label">JOURS</span>
-                </div>
-                <div class="countdown-item">
-                    <span class="countdown-value" id="countdown-hours">00</span>
-                    <span class="countdown-label">HEURES</span>
-                </div>
-                <div class="countdown-item">
-                    <span class="countdown-value" id="countdown-minutes">00</span>
-                    <span class="countdown-label">MINUTES</span>
-                </div>
-                <div class="countdown-item">
-                    <span class="countdown-value" id="countdown-seconds">00</span>
-                    <span class="countdown-label">SECONDES</span>
+    <!-- MAIN CONTENT -->
+    <main id="main-content">
+        <!-- SECTION PRÉSENTATION -->
+        <section class="section section-event" id="evenement" aria-label="L'événement">
+            <div class="container">
+                <h2 class="section-title animate-on-scroll">UNE SOIRÉE DE HANDBALL<br><span class="gold">D'EXCEPTION</span></h2>
+                <p class="section-text animate-on-scroll">
+                    Le Handball Plan de Cuques accueille le prestigieux Metz Handball pour un affrontement d'anthologie au Palais des Sports de Marseille.
+                    Une soirée sous haute tension où passion, intensité et spectacle seront au rendez-vous.
+                    Vivez l'émotion du handball au plus près.
+                </p>
+                <div class="countdown animate-scale" id="countdown" aria-label="Compte à rebours avant le match" role="timer">
+                    <div class="countdown-item">
+                        <span class="countdown-value" id="countdown-days" aria-label="Jours">00</span>
+                        <span class="countdown-label">JOURS</span>
+                    </div>
+                    <div class="countdown-item">
+                        <span class="countdown-value" id="countdown-hours" aria-label="Heures">00</span>
+                        <span class="countdown-label">HEURES</span>
+                    </div>
+                    <div class="countdown-item">
+                        <span class="countdown-value" id="countdown-minutes" aria-label="Minutes">00</span>
+                        <span class="countdown-label">MINUTES</span>
+                    </div>
+                    <div class="countdown-item">
+                        <span class="countdown-value" id="countdown-seconds" aria-label="Secondes">00</span>
+                        <span class="countdown-label">SECONDES</span>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- SECTION FACE-À-FACE -->
-    <section class="section section-teams" id="equipes">
-        <h2 class="section-title animate-on-scroll">LES <span class="gold">ÉQUIPES</span></h2>
-        <div class="teams-split">
-            <div class="team-card team-hbpc animate-slide-left">
-                <div class="team-card-inner">
-                    <img src="assets/logo-hbpc.png" alt="Logo HBPC" class="team-logo team-logo-hbpc" loading="lazy" width="220" height="220">
-                    <h3 class="team-name">Handball Plan de Cuques</h3>
-                    <div class="team-stats">
-                        <div class="stat">
-                            <span class="stat-value">2024-2025</span>
-                            <span class="stat-label">Saison</span>
+        <!-- SECTION FACE-À-FACE -->
+        <section class="section section-teams" id="equipes" aria-label="Les équipes">
+            <h2 class="section-title animate-on-scroll">LES <span class="gold">ÉQUIPES</span></h2>
+            <div class="teams-split">
+                <div class="team-card team-hbpc animate-slide-left">
+                    <div class="team-card-inner">
+                        <img src="assets/logo-hbpc.png" alt="Logo Handball Plan de Cuques" class="team-logo team-logo-hbpc" loading="lazy" width="220" height="220">
+                        <h3 class="team-name">Handball Plan de Cuques</h3>
+                        <div class="team-stats">
+                            <div class="stat">
+                                <span class="stat-value">2024-2025</span>
+                                <span class="stat-label">Saison</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value">N2F</span>
+                                <span class="stat-label">Division</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value">LES GUERRIÈRES</span>
+                                <span class="stat-label">Surnom</span>
+                            </div>
                         </div>
-                        <div class="stat">
-                            <span class="stat-value">N2F</span>
-                            <span class="stat-label">Division</span>
-                        </div>
-                        <div class="stat">
-                            <span class="stat-value">LES GUERRIÈRES</span>
-                            <span class="stat-label">Surnom</span>
+                    </div>
+                </div>
+                <div class="teams-divider animate-scale" aria-hidden="true">
+                    <span class="vs-large">VS</span>
+                </div>
+                <div class="team-card team-metz animate-slide-right">
+                    <div class="team-card-inner">
+                        <img src="assets/metz-handball.png" alt="Logo Metz Handball" class="team-logo" loading="lazy" width="180" height="180">
+                        <h3 class="team-name">Metz Handball</h3>
+                        <div class="team-stats">
+                            <div class="stat">
+                                <span class="stat-value">24×</span>
+                                <span class="stat-label">Champion de France</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value">LBE</span>
+                                <span class="stat-label">Division</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value">LES DRAGONNES</span>
+                                <span class="stat-label">Surnom</span>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="teams-divider animate-scale">
-                <span class="vs-large">VS</span>
+        </section>
+
+        <!-- SECTION INFOS PRATIQUES -->
+        <section class="section section-infos" id="infos" aria-label="Informations pratiques">
+            <div class="container">
+                <h2 class="section-title animate-on-scroll">RENDEZ-VOUS <span class="gold">AU PALAIS</span></h2>
+                <div class="infos-grid">
+                    <div class="info-card animate-on-scroll">
+                        <div class="info-icon" aria-hidden="true">📍</div>
+                        <h3>Adresse</h3>
+                        <p>Palais des Sports de Marseille<br>81 Rue Raymond Teisseire<br>13009 Marseille</p>
+                    </div>
+                    <div class="info-card animate-on-scroll">
+                        <div class="info-icon" aria-hidden="true">🕐</div>
+                        <h3>Horaires</h3>
+                        <p>Ouverture des portes : <strong>19h00</strong><br>Coup d'envoi : <strong>20h00</strong></p>
+                    </div>
+                    <div class="info-card animate-on-scroll">
+                        <div class="info-icon" aria-hidden="true">🚗</div>
+                        <h3>Accès</h3>
+                        <p>Parking disponible sur place<br>Métro Rond-Point du Prado<br>Bus lignes 19, 44, 45</p>
+                    </div>
+                    <div class="info-card animate-on-scroll">
+                        <div class="info-icon" aria-hidden="true">🎫</div>
+                        <h3>Billetterie</h3>
+                        <p>Réservation en ligne<br>ou sur place le jour du match<br>(dans la limite des places)</p>
+                    </div>
+                </div>
+                <div class="map-wrapper animate-on-scroll">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2904.5!2d5.3925!3d43.2631!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12c9c1234567890%3A0x1234567890abcdef!2sPalais%20des%20Sports%20de%20Marseille!5e0!3m2!1sfr!2sfr!4v1700000000000!5m2!1sfr!2sfr"
+                        width="100%"
+                        height="400"
+                        style="border:0; border-radius: 12px;"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                        title="Carte Google Maps — Palais des Sports de Marseille">
+                    </iframe>
+                </div>
             </div>
-            <div class="team-card team-metz animate-slide-right">
-                <div class="team-card-inner">
-                    <img src="assets/metz-handball.png" alt="Logo Metz Handball" class="team-logo" loading="lazy" width="180" height="180">
-                    <h3 class="team-name">Metz Handball</h3>
-                    <div class="team-stats">
-                        <div class="stat">
-                            <span class="stat-value">24×</span>
-                            <span class="stat-label">Champion de France</span>
-                        </div>
-                        <div class="stat">
-                            <span class="stat-value">LBE</span>
-                            <span class="stat-label">Division</span>
-                        </div>
-                        <div class="stat">
-                            <span class="stat-value">LES DRAGONNES</span>
-                            <span class="stat-label">Surnom</span>
-                        </div>
+        </section>
+
+        <!-- SECTION CTA / BILLETTERIE -->
+        <section class="section section-cta" id="billetterie" aria-label="Billetterie">
+            <div class="container">
+                <div class="cta-block animate-scale">
+                    <h2 class="cta-title">PRÊT À VIVRE<br><span class="gold">LE MATCH ?</span></h2>
+                    <p class="cta-text">Rejoignez-nous le 27 mai 2025 au Palais des Sports de Marseille pour une soirée inoubliable.</p>
+                    <div class="cta-buttons">
+                        <a href="https://handball-plandecuques.fr" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg">RÉSERVER MES PLACES</a>
+                        <a href="https://handball-plandecuques.fr" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-lg">DÉCOUVRIR LE CLUB</a>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <!-- SECTION INFOS PRATIQUES -->
-    <section class="section section-infos" id="infos">
-        <div class="container">
-            <h2 class="section-title animate-on-scroll">RENDEZ-VOUS <span class="gold">AU PALAIS</span></h2>
-            <div class="infos-grid">
-                <div class="info-card animate-on-scroll">
-                    <div class="info-icon">📍</div>
-                    <h3>Adresse</h3>
-                    <p>Palais des Sports de Marseille<br>81 Rue Raymond Teisseire<br>13009 Marseille</p>
-                </div>
-                <div class="info-card animate-on-scroll">
-                    <div class="info-icon">🕐</div>
-                    <h3>Horaires</h3>
-                    <p>Ouverture des portes : <strong>19h00</strong><br>Coup d'envoi : <strong>20h00</strong></p>
-                </div>
-                <div class="info-card animate-on-scroll">
-                    <div class="info-icon">🚗</div>
-                    <h3>Accès</h3>
-                    <p>Parking disponible sur place<br>Métro Rond-Point du Prado<br>Bus lignes 19, 44, 45</p>
-                </div>
-                <div class="info-card animate-on-scroll">
-                    <div class="info-icon">🎫</div>
-                    <h3>Billetterie</h3>
-                    <p>Réservation en ligne<br>ou sur place le jour du match<br>(dans la limite des places)</p>
-                </div>
-            </div>
-            <div class="map-wrapper animate-on-scroll">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2904.5!2d5.3925!3d43.2631!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12c9c1234567890%3A0x1234567890abcdef!2sPalais%20des%20Sports%20de%20Marseille!5e0!3m2!1sfr!2sfr!4v1700000000000!5m2!1sfr!2sfr"
-                    width="100%"
-                    height="400"
-                    style="border:0; border-radius: 12px;"
-                    allowfullscreen=""
-                    loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"
-                    title="Localisation du Palais des Sports de Marseille">
-                </iframe>
-            </div>
-        </div>
-    </section>
-
-    <!-- SECTION CTA / BILLETTERIE -->
-    <section class="section section-cta" id="billetterie">
-        <div class="container">
-            <div class="cta-block animate-scale">
-                <h2 class="cta-title">PRÊT À VIVRE<br><span class="gold">LE MATCH ?</span></h2>
-                <p class="cta-text">Rejoignez-nous le 27 mai 2025 au Palais des Sports de Marseille pour une soirée inoubliable.</p>
-                <div class="cta-buttons">
-                    <a href="https://handball-plandecuques.fr" target="_blank" rel="noopener" class="btn btn-primary btn-lg">RÉSERVER MES PLACES</a>
-                    <a href="https://handball-plandecuques.fr" target="_blank" rel="noopener" class="btn btn-secondary btn-lg">DÉCOUVRIR LE CLUB</a>
-                </div>
-            </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
     <!-- FOOTER -->
     <footer class="footer">
         <div class="container">
             <div class="footer-logos">
-                <img src="assets/logo-hbpc.png" alt="HBPC" width="75" height="75" loading="lazy">
-                <img src="assets/metz-handball.png" alt="Metz Handball" width="60" height="60" loading="lazy">
+                <img src="assets/logo-hbpc.png" alt="Logo HBPC" width="75" height="75" loading="lazy">
+                <img src="assets/metz-handball.png" alt="Logo Metz Handball" width="60" height="60" loading="lazy">
             </div>
-            <div class="footer-links">
-                <a href="https://handball-plandecuques.fr" target="_blank" rel="noopener">Site officiel HBPC</a>
-            </div>
-            <div class="footer-social">
-                <a href="#" aria-label="Facebook" class="social-link">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            <nav class="footer-links" aria-label="Liens du pied de page">
+                <a href="https://handball-plandecuques.fr" target="_blank" rel="noopener noreferrer">Site officiel HBPC</a>
+            </nav>
+            <div class="footer-social" aria-label="Réseaux sociaux">
+                <a href="#" aria-label="Facebook" class="social-link" rel="noopener noreferrer">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
                 </a>
-                <a href="#" aria-label="Instagram" class="social-link">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+                <a href="#" aria-label="Instagram" class="social-link" rel="noopener noreferrer">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
                 </a>
-                <a href="#" aria-label="Twitter / X" class="social-link">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                <a href="#" aria-label="X (Twitter)" class="social-link" rel="noopener noreferrer">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
                 </a>
             </div>
             <p class="footer-copy">© 2025 Handball Plan de Cuques — Site événementiel</p>
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <!-- Performance: script en defer -->
+    <script src="script.js" defer></script>
 </body>
 </html>

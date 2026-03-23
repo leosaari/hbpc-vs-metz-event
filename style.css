@@ -64,8 +64,46 @@ a {
     padding: 0 24px;
 }
 
+/* Accessibility: Skip link */
+.skip-link {
+    position: absolute;
+    top: -100%;
+    left: 16px;
+    z-index: 10000;
+    background: var(--gold);
+    color: var(--black);
+    padding: 12px 24px;
+    border-radius: 0 0 8px 8px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    transition: top 0.3s ease;
+}
+
+.skip-link:focus {
+    top: 0;
+}
+
 .gold {
     color: var(--gold);
+}
+
+/* Accessibility: Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+    html {
+        scroll-behavior: auto;
+    }
+}
+
+/* Accessibility: Focus visible */
+:focus-visible {
+    outline: 3px solid var(--gold);
+    outline-offset: 3px;
 }
 
 /* --- NAVBAR --- */

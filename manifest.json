@@ -1,0 +1,16 @@
+{
+    "name": "HBPC vs Metz Handball",
+    "short_name": "HBPC vs Metz",
+    "description": "Match événement — 27 Mai 2025 au Palais des Sports de Marseille",
+    "start_url": "/hbpc-vs-metz-event/",
+    "display": "standalone",
+    "background_color": "#0D0D0D",
+    "theme_color": "#0D0D0D",
+    "icons": [
+        {
+            "src": "assets/logo-hbpc.png",
+            "sizes": "2000x2000",
+            "type": "image/png"
+        }
+    ]
+}

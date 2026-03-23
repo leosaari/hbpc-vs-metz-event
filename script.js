@@ -24,15 +24,29 @@
 
     if (navToggle && navLinks) {
         navToggle.addEventListener('click', function () {
-            navToggle.classList.toggle('active');
+            var isOpen = navToggle.classList.toggle('active');
             navLinks.classList.toggle('open');
+            navToggle.setAttribute('aria-expanded', isOpen);
+            navToggle.setAttribute('aria-label', isOpen ? 'Fermer le menu' : 'Ouvrir le menu');
         });
 
         navLinks.querySelectorAll('a').forEach(function (link) {
             link.addEventListener('click', function () {
                 navToggle.classList.remove('active');
                 navLinks.classList.remove('open');
+                navToggle.setAttribute('aria-expanded', 'false');
+                navToggle.setAttribute('aria-label', 'Ouvrir le menu');
             });
+        });
+
+        // Close menu on Escape key
+        document.addEventListener('keydown', function (e) {
+            if (e.key === 'Escape' && navLinks.classList.contains('open')) {
+                navToggle.classList.remove('active');
+                navLinks.classList.remove('open');
+                navToggle.setAttribute('aria-expanded', 'false');
+                navToggle.focus();
+            }
         });
     }
 

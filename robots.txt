@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://leosaari.github.io/hbpc-vs-metz-event/sitemap.xml
