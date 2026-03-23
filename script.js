@@ -51,7 +51,7 @@
     }
 
     // --- Countdown to 27 May 2025 20:00 (Europe/Paris = UTC+2 in summer) ---
-    var targetDate = new Date('2025-05-27T20:00:00+02:00').getTime();
+    var targetDate = new Date('2026-05-27T20:00:00+02:00').getTime();
     var daysEl = document.getElementById('countdown-days');
     var hoursEl = document.getElementById('countdown-hours');
     var minutesEl = document.getElementById('countdown-minutes');
