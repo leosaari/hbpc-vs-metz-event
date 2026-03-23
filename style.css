@@ -91,8 +91,8 @@ a {
 }
 
 .navbar-logo img {
-    width: 48px;
-    height: 48px;
+    width: 56px;
+    height: 56px;
     object-fit: contain;
     transition: transform 0.3s ease;
 }
@@ -277,6 +277,11 @@ a {
     object-fit: contain;
     filter: drop-shadow(0 0 25px rgba(246, 215, 43, 0.35));
     animation: logoFloat 3s ease-in-out infinite alternate;
+}
+
+.hero-logo-hbpc {
+    width: 170px;
+    height: 170px;
 }
 
 .hero-logo-metz {
@@ -606,6 +611,11 @@ a {
     margin: 0 auto 28px;
     filter: drop-shadow(0 4px 25px rgba(0, 0, 0, 0.5));
     transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.team-logo-hbpc {
+    width: 190px;
+    height: 190px;
 }
 
 .team-card:hover .team-logo {
@@ -985,6 +995,11 @@ a {
         height: 85px;
     }
 
+    .hero-logo-hbpc {
+        width: 110px;
+        height: 110px;
+    }
+
     .vs-badge {
         font-size: 2.2rem;
     }
@@ -1069,6 +1084,11 @@ a {
     .hero-logo {
         width: 68px;
         height: 68px;
+    }
+
+    .hero-logo-hbpc {
+        width: 88px;
+        height: 88px;
     }
 
     .hero-logos {
