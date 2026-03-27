@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HBPC vs Metz Handball — 27 Mai 2026 | Palais des Sports de Marseille</title>
     <meta name="description" content="Match événement : HBPC vs Metz Handball le 27 mai 2026 à 20h00 au Palais des Sports de Marseille. Réservez vos places pour une soirée de handball d'exception !">
-    <!-- SEO: Open Graph -->
     <meta property="og:title" content="HBPC vs Metz Handball — 27 Mai 2026">
     <meta property="og:description" content="Match événement au Palais des Sports de Marseille. Handball Plan de Cuques reçoit Metz Handball le 27 mai 2026 à 20h00.">
     <meta property="og:type" content="website">
@@ -13,27 +12,20 @@
     <meta property="og:image" content="https://leosaari.github.io/hbpc-vs-metz-event/assets/logo-hbpc.png">
     <meta property="og:locale" content="fr_FR">
     <meta property="og:site_name" content="HBPC - Handball Plan de Cuques">
-    <!-- SEO: Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="HBPC vs Metz Handball — 27 Mai 2026">
     <meta name="twitter:description" content="Match événement au Palais des Sports de Marseille. Réservez vos places !">
     <meta name="twitter:image" content="https://leosaari.github.io/hbpc-vs-metz-event/assets/logo-hbpc.png">
-    <!-- SEO: Canonical -->
     <link rel="canonical" href="https://leosaari.github.io/hbpc-vs-metz-event/">
-    <!-- Performance: Preconnect fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <!-- Performance: Preload critical font -->
     <link rel="preload" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;600;700&display=swap" as="style">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <!-- Favicon -->
+    <link rel="stylesheet" href="style.css?v=20260325">
     <link rel="icon" href="assets/logo-hbpc.png" type="image/png">
     <link rel="apple-touch-icon" href="assets/logo-hbpc.png">
-    <!-- PWA: Manifest -->
     <link rel="manifest" href="manifest.json">
     <meta name="theme-color" content="#0D0D0D">
-    <!-- SEO: JSON-LD Structured Data -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
@@ -61,20 +53,13 @@
             "url": "https://handball-plandecuques.fr"
         },
         "competitor": [
-            {
-                "@type": "SportsTeam",
-                "name": "Handball Plan de Cuques"
-            },
-            {
-                "@type": "SportsTeam",
-                "name": "Metz Handball"
-            }
+            { "@type": "SportsTeam", "name": "Handball Plan de Cuques" },
+            { "@type": "SportsTeam", "name": "Metz Handball" }
         ]
     }
     </script>
 </head>
 <body>
-    <!-- Accessibility: Skip to content -->
     <a href="#evenement" class="skip-link">Aller au contenu principal</a>
 
     <!-- NAVBAR -->
@@ -91,7 +76,7 @@
                 <li><a href="#evenement">L'Événement</a></li>
                 <li><a href="#equipes">Les Équipes</a></li>
                 <li><a href="#infos">Infos Pratiques</a></li>
-                <li><a href="https://handball-plandecuques.billetterie-club.fr/matchs/2061" target="_blank" rel="noopener noreferrer" class="nav-cta">Billetterie</a></li>
+                <li><a href="#billetterie" class="nav-cta">Billetterie</a></li>
             </ul>
         </nav>
     </header>
@@ -109,7 +94,7 @@
         </div>
         <div class="hero-content">
             <div class="hero-logos">
-                <img src="assets/logo-hbpc.png" alt="Logo HBPC - Handball Plan de Cuques" class="hero-logo hero-logo-hbpc" width="200" height="200">
+                <img src="assets/logo-hbpc.png" alt="Logo HBPC" class="hero-logo hero-logo-hbpc" width="200" height="200">
                 <div class="vs-badge" aria-hidden="true">VS</div>
                 <img src="assets/metz-handball.png" alt="Logo Metz Handball" class="hero-logo hero-logo-metz" width="160" height="160">
             </div>
@@ -118,7 +103,7 @@
                 <p class="hero-date"><time datetime="2026-05-27T20:00:00+02:00">27 MAI 2026 — 20H00</time></p>
                 <p class="hero-venue">PALAIS DES SPORTS DE MARSEILLE</p>
             </div>
-            <a href="https://handball-plandecuques.billetterie-club.fr/matchs/2061" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg">RÉSERVER MES PLACES</a>
+            <a href="#billetterie" class="btn btn-primary btn-lg">RÉSERVER MES PLACES</a>
         </div>
         <a href="#evenement" class="scroll-indicator" aria-label="Défiler vers le contenu">
             <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
@@ -129,14 +114,14 @@
 
     <!-- MAIN CONTENT -->
     <main id="main-content">
-        <!-- SECTION PRÉSENTATION -->
+
+        <!-- 1. SECTION PRÉSENTATION + COUNTDOWN -->
         <section class="section section-event" id="evenement" aria-label="L'événement">
             <div class="container">
                 <h2 class="section-title animate-on-scroll">UNE SOIRÉE DE HANDBALL<br><span class="gold">D'EXCEPTION</span></h2>
                 <p class="section-text animate-on-scroll">
                     Le Handball Plan de Cuques accueille le prestigieux Metz Handball pour un affrontement d'anthologie au Palais des Sports de Marseille.
                     Une soirée sous haute tension où passion, intensité et spectacle seront au rendez-vous.
-                    Vivez l'émotion du handball au plus près.
                 </p>
                 <div class="countdown animate-scale" id="countdown" aria-label="Compte à rebours avant le match" role="timer">
                     <div class="countdown-item">
@@ -159,49 +144,111 @@
             </div>
         </section>
 
-        <!-- SECTION FACE-À-FACE -->
+        <!-- 2. SECTION ÉQUIPES -->
         <section class="section section-teams" id="equipes" aria-label="Les équipes">
             <h2 class="section-title animate-on-scroll">LES <span class="gold">ÉQUIPES</span></h2>
+            <p class="section-subtitle animate-on-scroll">Cliquez sur une équipe pour découvrir la composition</p>
             <div class="teams-split">
-                <div class="team-card team-hbpc animate-slide-left">
-                    <div class="team-card-inner">
-                        <img src="assets/logo-hbpc.png" alt="Logo Handball Plan de Cuques" class="team-logo team-logo-hbpc" loading="lazy" width="220" height="220">
+                <div class="team-card team-hbpc animate-slide-left" id="card-hbpc" role="button" tabindex="0" aria-expanded="false">
+                    <div class="team-card-inner team-front">
+                        <img src="assets/logo-hbpc.png" alt="Logo HBPC" class="team-logo team-logo-hbpc" loading="lazy" width="220" height="220">
                         <h3 class="team-name">Handball Plan de Cuques</h3>
                         <div class="team-stats">
-                            <div class="stat">
-                                <span class="stat-value">2025-2026</span>
-                                <span class="stat-label">Saison</span>
-                            </div>
-                            <div class="stat">
-                                <span class="stat-value">N2F</span>
-                                <span class="stat-label">Division</span>
-                            </div>
-                            <div class="stat">
-                                <span class="stat-value">LES GUERRIÈRES</span>
-                                <span class="stat-label">Surnom</span>
-                            </div>
+                            <div class="stat"><span class="stat-value">2025-2026</span><span class="stat-label">Saison</span></div>
+                            <div class="stat"><span class="stat-value">N2F</span><span class="stat-label">Division</span></div>
+                            <div class="stat"><span class="stat-value">LES GUERRIÈRES</span><span class="stat-label">Surnom</span></div>
                         </div>
+                        <span class="team-hint">Cliquez pour voir la composition</span>
+                    </div>
+                    <div class="team-card-inner team-back">
+                        <h3 class="team-name">Composition HBPC</h3>
+                        <div class="team-roster">
+                            <div class="roster-group"><span class="roster-pos">GB</span><div class="roster-players"><span>1 — L. Martin</span><span>16 — S. Dupont</span></div></div>
+                            <div class="roster-group"><span class="roster-pos">ARG</span><div class="roster-players"><span>7 — C. Bernard</span></div></div>
+                            <div class="roster-group"><span class="roster-pos">ARD</span><div class="roster-players"><span>3 — M. Leroy</span></div></div>
+                            <div class="roster-group"><span class="roster-pos">DC</span><div class="roster-players"><span>10 — A. Moreau</span></div></div>
+                            <div class="roster-group"><span class="roster-pos">ALG</span><div class="roster-players"><span>5 — E. Garcia</span></div></div>
+                            <div class="roster-group"><span class="roster-pos">ALD</span><div class="roster-players"><span>11 — N. Petit</span></div></div>
+                            <div class="roster-group"><span class="roster-pos">PIV</span><div class="roster-players"><span>9 — L. Roux</span></div></div>
+                        </div>
+                        <span class="team-hint">Cliquez pour revenir</span>
                     </div>
                 </div>
                 <div class="teams-divider animate-scale" aria-hidden="true">
                     <span class="vs-large">VS</span>
+                    <div class="prono-badge">
+                        <span class="prono-label">PRONOSTIC</span>
+                        <span class="prono-score">24 — 28</span>
+                    </div>
                 </div>
-                <div class="team-card team-metz animate-slide-right">
-                    <div class="team-card-inner">
+                <div class="team-card team-metz animate-slide-right" id="card-metz" role="button" tabindex="0" aria-expanded="false">
+                    <div class="team-card-inner team-front">
                         <img src="assets/metz-handball.png" alt="Logo Metz Handball" class="team-logo" loading="lazy" width="180" height="180">
                         <h3 class="team-name">Metz Handball</h3>
                         <div class="team-stats">
-                            <div class="stat">
-                                <span class="stat-value">24×</span>
-                                <span class="stat-label">Champion de France</span>
+                            <div class="stat"><span class="stat-value">24x</span><span class="stat-label">Champion de France</span></div>
+                            <div class="stat"><span class="stat-value">LBE</span><span class="stat-label">Division</span></div>
+                            <div class="stat"><span class="stat-value">LES DRAGONNES</span><span class="stat-label">Surnom</span></div>
+                        </div>
+                        <span class="team-hint">Cliquez pour voir la composition</span>
+                    </div>
+                    <div class="team-card-inner team-back">
+                        <h3 class="team-name">Composition Metz</h3>
+                        <div class="team-roster">
+                            <div class="roster-group"><span class="roster-pos">GB</span><div class="roster-players"><span>1 — H. Glauser</span><span>12 — I. Toft</span></div></div>
+                            <div class="roster-group"><span class="roster-pos">ARG</span><div class="roster-players"><span>21 — L. Granier</span></div></div>
+                            <div class="roster-group"><span class="roster-pos">ARD</span><div class="roster-players"><span>7 — D. Lassource</span></div></div>
+                            <div class="roster-group"><span class="roster-pos">DC</span><div class="roster-players"><span>10 — G. Maubon</span></div></div>
+                            <div class="roster-group"><span class="roster-pos">ALG</span><div class="roster-players"><span>23 — C. Flippes</span></div></div>
+                            <div class="roster-group"><span class="roster-pos">ALD</span><div class="roster-players"><span>17 — A. Sercien-Ugolin</span></div></div>
+                            <div class="roster-group"><span class="roster-pos">PIV</span><div class="roster-players"><span>8 — O. Kanor</span></div></div>
+                        </div>
+                        <span class="team-hint">Cliquez pour revenir</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. SECTION LA GUERRIÈRE (boisson) -->
+        <section class="section section-drink" id="boisson" aria-label="Boisson du match">
+            <div class="container">
+                <div class="drink-block animate-scale">
+                    <div class="drink-image">
+                        <img src="assets/cocktail-gigi.png" alt="La Guerrière — Cocktail Mangue, Passion, Ginger Beer" loading="lazy">
+                        <div class="drink-glow"></div>
+                    </div>
+                    <div class="drink-content">
+                        <span class="drink-tag">EXCLUSIVITÉ JOUR DE MATCH</span>
+                        <h2 class="drink-title">LA <span class="gold">GUERRIÈRE</span></h2>
+                        <p class="drink-tagline">Mangue, passion, ginger beer</p>
+                        <p class="drink-text">Un cocktail aussi explosif que nos Lionnes sur le terrain.<br>En vente à la buvette pendant le match.</p>
+                        <div class="drink-ingredients">
+                            <div class="ingredient" data-ingredient="mangue">
+                                <div class="ingredient-icon">
+                                    <svg width="32" height="32" viewBox="0 0 64 64" fill="none"><ellipse cx="32" cy="36" rx="18" ry="22" fill="#F6A623" opacity="0.9"/><path d="M32 14c-2-8 4-12 8-10s4 10 0 14" stroke="#4A7C2E" stroke-width="2.5" fill="none"/><ellipse cx="32" cy="36" rx="14" ry="18" fill="#F6D72B" opacity="0.5"/></svg>
+                                </div>
+                                <span class="ingredient-name">Mangue fraîche</span>
+                                <div class="ingredient-detail">
+                                    <p>Mangue Alfonso mûre à point, mixée pour un nectar velouté et sucré. La base tropicale de La Guerrière.</p>
+                                </div>
                             </div>
-                            <div class="stat">
-                                <span class="stat-value">LBE</span>
-                                <span class="stat-label">Division</span>
+                            <div class="ingredient" data-ingredient="passion">
+                                <div class="ingredient-icon">
+                                    <svg width="32" height="32" viewBox="0 0 64 64" fill="none"><circle cx="32" cy="32" r="20" fill="#8B2252" opacity="0.9"/><circle cx="32" cy="32" r="14" fill="#C44D8B" opacity="0.5"/><circle cx="28" cy="28" r="2" fill="#F6D72B"/><circle cx="36" cy="30" r="1.5" fill="#F6D72B"/><circle cx="30" cy="36" r="1.8" fill="#F6D72B"/><circle cx="35" cy="35" r="1.2" fill="#F6D72B"/></svg>
+                                </div>
+                                <span class="ingredient-name">Fruit de la passion</span>
+                                <div class="ingredient-detail">
+                                    <p>Des graines croquantes et un jus acidulé qui apporte cette pointe d'intensité — comme un tir au buzzer.</p>
+                                </div>
                             </div>
-                            <div class="stat">
-                                <span class="stat-value">LES DRAGONNES</span>
-                                <span class="stat-label">Surnom</span>
+                            <div class="ingredient" data-ingredient="ginger">
+                                <div class="ingredient-icon">
+                                    <svg width="32" height="32" viewBox="0 0 64 64" fill="none"><rect x="18" y="20" width="28" height="32" rx="8" fill="#D4A843" opacity="0.8"/><rect x="22" y="24" width="20" height="24" rx="5" fill="#F6D72B" opacity="0.3"/><circle cx="32" cy="14" r="4" fill="#FFFFFF" opacity="0.6"/><path d="M28 14h8" stroke="#D4A843" stroke-width="1"/><circle cx="27" cy="32" r="1.5" fill="#FFF" opacity="0.4"/><circle cx="37" cy="36" r="1" fill="#FFF" opacity="0.4"/></svg>
+                                </div>
+                                <span class="ingredient-name">Ginger beer</span>
+                                <div class="ingredient-detail">
+                                    <p>Le kick pétillant du gingembre. Des bulles qui explosent en bouche — l'énergie pure des Guerrières.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -209,55 +256,246 @@
             </div>
         </section>
 
-        <!-- SECTION INFOS PRATIQUES -->
+        <!-- 4. SECTION BILLETTERIE -->
+        <section class="section section-billetterie" id="billetterie" aria-label="Billetterie">
+            <div class="container">
+                <h2 class="section-title animate-on-scroll">BILLETTERIE</h2>
+                <p class="section-text animate-on-scroll">Sélectionnez vos places, remplissez vos informations et réservez en quelques clics.</p>
+
+                <!-- ÉTAPE 1 : SÉLECTION -->
+                <div id="booking-step-1" class="booking-step active">
+                    <div class="tickets-grid">
+                        <div class="ticket-card animate-on-scroll" data-ticket="adulte" data-price="19.90">
+                            <div class="ticket-badge">POPULAIRE</div>
+                            <h3 class="ticket-name">Billet Adulte</h3>
+                            <div class="ticket-price">16 — 19,90 <span>€</span></div>
+                            <p class="ticket-desc">Place à l'unité, accès tribune</p>
+                            <span class="ticket-target">Grand public</span>
+                            <div class="ticket-qty">
+                                <button class="qty-btn qty-minus" aria-label="Retirer un billet">−</button>
+                                <span class="qty-value" data-qty="0">0</span>
+                                <button class="qty-btn qty-plus" aria-label="Ajouter un billet">+</button>
+                            </div>
+                        </div>
+                        <div class="ticket-card ticket-free animate-on-scroll" data-ticket="enfant" data-price="0">
+                            <div class="ticket-badge ticket-badge-free">GRATUIT</div>
+                            <h3 class="ticket-name">Billet Enfant</h3>
+                            <div class="ticket-price">Gratuit</div>
+                            <p class="ticket-desc">Enfants de moins de 12 ans</p>
+                            <span class="ticket-target">Jeunes & Familles</span>
+                            <div class="ticket-qty">
+                                <button class="qty-btn qty-minus" aria-label="Retirer un billet">−</button>
+                                <span class="qty-value" data-qty="0">0</span>
+                                <button class="qty-btn qty-plus" aria-label="Ajouter un billet">+</button>
+                            </div>
+                        </div>
+                        <div class="ticket-card ticket-featured animate-on-scroll" data-ticket="groupe" data-price="80">
+                            <div class="ticket-badge ticket-badge-gold">BEST</div>
+                            <h3 class="ticket-name">Pass Groupe</h3>
+                            <div class="ticket-price">64 — 80 <span>€</span></div>
+                            <p class="ticket-desc">4 places achetées, 1 place offerte</p>
+                            <span class="ticket-target">Famille & Amis</span>
+                            <div class="ticket-qty">
+                                <button class="qty-btn qty-minus" aria-label="Retirer un pass">−</button>
+                                <span class="qty-value" data-qty="0">0</span>
+                                <button class="qty-btn qty-plus" aria-label="Ajouter un pass">+</button>
+                            </div>
+                        </div>
+                        <div class="ticket-card ticket-vip animate-on-scroll" data-ticket="vip" data-price="200">
+                            <div class="ticket-badge ticket-badge-vip">VIP</div>
+                            <h3 class="ticket-name">Offre VIP</h3>
+                            <div class="ticket-price">200 <span>€</span></div>
+                            <p class="ticket-desc">2 places — accès privilégié</p>
+                            <span class="ticket-target">VIP</span>
+                            <div class="ticket-qty">
+                                <button class="qty-btn qty-minus" aria-label="Retirer">−</button>
+                                <span class="qty-value" data-qty="0">0</span>
+                                <button class="qty-btn qty-plus" aria-label="Ajouter">+</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart-summary" id="cart-summary" style="display:none;">
+                        <div class="cart-inner">
+                            <div class="cart-items" id="cart-items"></div>
+                            <div class="cart-total">
+                                <span>TOTAL</span>
+                                <span id="cart-total-price">0,00 €</span>
+                            </div>
+                            <button class="btn btn-primary btn-lg cart-next-btn" id="btn-to-step2">CONTINUER</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ÉTAPE 2 : INFORMATIONS -->
+                <div id="booking-step-2" class="booking-step">
+                    <div class="booking-form-wrapper">
+                        <div class="step-indicator">
+                            <span class="step-dot done"></span>
+                            <span class="step-line"></span>
+                            <span class="step-dot active"></span>
+                            <span class="step-line"></span>
+                            <span class="step-dot"></span>
+                        </div>
+                        <h3 class="form-title">VOS <span class="gold">INFORMATIONS</span></h3>
+                        <form id="booking-form" class="booking-form" novalidate>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="book-lastname">Nom *</label>
+                                    <input type="text" id="book-lastname" name="lastname" required autocomplete="family-name" placeholder="Dupont">
+                                </div>
+                                <div class="form-group">
+                                    <label for="book-firstname">Prénom *</label>
+                                    <input type="text" id="book-firstname" name="firstname" required autocomplete="given-name" placeholder="Marie">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="book-email">Email *</label>
+                                    <input type="email" id="book-email" name="email" required autocomplete="email" placeholder="marie@exemple.fr">
+                                </div>
+                                <div class="form-group">
+                                    <label for="book-phone">Téléphone</label>
+                                    <input type="tel" id="book-phone" name="phone" autocomplete="tel" placeholder="06 12 34 56 78">
+                                </div>
+                            </div>
+                            <div class="form-recap" id="form-recap"></div>
+                            <div class="form-actions">
+                                <button type="button" class="btn btn-secondary" id="btn-back-step1">RETOUR</button>
+                                <button type="submit" class="btn btn-primary btn-lg">PROCÉDER AU PAIEMENT</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- ÉTAPE 3 : PAIEMENT -->
+                <div id="booking-step-3" class="booking-step">
+                    <div class="booking-form-wrapper">
+                        <div class="step-indicator">
+                            <span class="step-dot done"></span>
+                            <span class="step-line done"></span>
+                            <span class="step-dot done"></span>
+                            <span class="step-line"></span>
+                            <span class="step-dot active"></span>
+                        </div>
+                        <h3 class="form-title">PAIEMENT <span class="gold">SÉCURISÉ</span></h3>
+                        <div class="payment-methods">
+                            <button class="pay-method active" data-method="card" type="button">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="1" y="4" width="22" height="16" rx="2"/><path d="M1 10h22"/></svg>
+                                Carte bancaire
+                            </button>
+                            <button class="pay-method" data-method="paypal" type="button">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M7.076 21.337H2.47a.641.641 0 01-.633-.74L4.944 2.23A.772.772 0 015.705 1.6h6.865c2.14 0 3.68.56 4.58 1.664.418.512.686 1.06.8 1.63.12.6.08 1.32-.12 2.14l-.008.03v.236l.185.104c.56.3.96.66 1.21 1.08.36.6.47 1.33.32 2.17-.16.96-.52 1.8-1.06 2.46-.5.6-1.12 1.06-1.86 1.38-.72.3-1.54.45-2.44.45h-.58a1.56 1.56 0 00-1.04.4c-.28.26-.46.62-.52 1.01l-.04.21-.66 4.2-.03.15c-.01.05-.02.08-.05.1-.03.04-.06.05-.1.05z"/></svg>
+                                PayPal
+                            </button>
+                        </div>
+                        <form id="payment-form" class="booking-form" novalidate>
+                            <div id="card-fields">
+                                <div class="form-group">
+                                    <label for="card-number">Numéro de carte *</label>
+                                    <input type="text" id="card-number" name="cardnumber" required placeholder="4242 4242 4242 4242" maxlength="19" autocomplete="cc-number" inputmode="numeric">
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label for="card-expiry">Expiration *</label>
+                                        <input type="text" id="card-expiry" name="expiry" required placeholder="MM / AA" maxlength="7" autocomplete="cc-exp">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="card-cvc">CVC *</label>
+                                        <input type="text" id="card-cvc" name="cvc" required placeholder="123" maxlength="4" autocomplete="cc-csc" inputmode="numeric">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="payment-total">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--gold)" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg>
+                                <span>Total à payer : <strong id="payment-total-amount">0,00 €</strong></span>
+                            </div>
+                            <div class="form-actions">
+                                <button type="button" class="btn btn-secondary" id="btn-back-step2">RETOUR</button>
+                                <button type="submit" class="btn btn-primary btn-lg btn-pay" id="btn-pay">
+                                    <span class="btn-pay-text">PAYER MAINTENANT</span>
+                                    <span class="btn-pay-loading" style="display:none;">
+                                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="spinner"><circle cx="12" cy="12" r="10" stroke-dasharray="30 70"/></svg>
+                                        TRAITEMENT...
+                                    </span>
+                                </button>
+                            </div>
+                            <p class="payment-secure-note">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--gray-dim)" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                                Paiement 100% sécurisé — SSL chiffré
+                            </p>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- ÉTAPE 4 : CONFIRMATION -->
+                <div id="booking-step-4" class="booking-step">
+                    <div class="booking-confirm animate-scale">
+                        <div class="confirm-icon">
+                            <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="var(--gold)" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M8 12l3 3 5-5"/></svg>
+                        </div>
+                        <h3 class="form-title">RÉSERVATION <span class="gold">CONFIRMÉE</span></h3>
+                        <p class="confirm-text">Merci <span id="confirm-name"></span> ! Vos billets ont été envoyés à <strong id="confirm-email"></strong>.</p>
+                        <div class="confirm-recap" id="confirm-recap"></div>
+                        <p class="confirm-note">Présentez votre e-billet (QR code) à l'entrée du Palais des Sports le 27 mai 2026 à partir de 19h00.</p>
+                        <button class="btn btn-primary btn-lg" id="btn-new-booking">NOUVELLE RÉSERVATION</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. SECTION INFOS PRATIQUES -->
         <section class="section section-infos" id="infos" aria-label="Informations pratiques">
             <div class="container">
                 <h2 class="section-title animate-on-scroll">RENDEZ-VOUS <span class="gold">AU PALAIS</span></h2>
                 <div class="infos-grid">
                     <div class="info-card animate-on-scroll">
-                        <div class="info-icon" aria-hidden="true">📍</div>
+                        <div class="info-icon" aria-hidden="true">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="var(--gold)" stroke-width="1.5"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg>
+                        </div>
                         <h3>Adresse</h3>
                         <p>Palais des Sports de Marseille<br>81 Rue Raymond Teisseire<br>13009 Marseille</p>
                     </div>
                     <div class="info-card animate-on-scroll">
-                        <div class="info-icon" aria-hidden="true">🕐</div>
+                        <div class="info-icon" aria-hidden="true">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="var(--gold)" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                        </div>
                         <h3>Horaires</h3>
                         <p>Ouverture des portes : <strong>19h00</strong><br>Coup d'envoi : <strong>20h00</strong></p>
                     </div>
                     <div class="info-card animate-on-scroll">
-                        <div class="info-icon" aria-hidden="true">🚗</div>
+                        <div class="info-icon" aria-hidden="true">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="var(--gold)" stroke-width="1.5"><rect x="3" y="11" width="18" height="7" rx="2"/><path d="M7 11V7a5 5 0 0110 0v4"/><circle cx="7.5" cy="15.5" r="1.5" fill="var(--gold)"/><circle cx="16.5" cy="15.5" r="1.5" fill="var(--gold)"/></svg>
+                        </div>
                         <h3>Accès</h3>
                         <p>Parking disponible sur place<br>Métro Rond-Point du Prado<br>Bus lignes 19, 44, 45</p>
                     </div>
                     <div class="info-card animate-on-scroll">
-                        <div class="info-icon" aria-hidden="true">🎫</div>
+                        <div class="info-icon" aria-hidden="true">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="var(--gold)" stroke-width="1.5"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 10h20"/><path d="M9 4v16" stroke-dasharray="2 2"/></svg>
+                        </div>
                         <h3>Billetterie</h3>
-                        <p>Réservation en ligne<br>ou sur place le jour du match<br>(dans la limite des places)</p>
+                        <p>Réservation en ligne ci-dessus<br>ou sur place le jour du match<br>(dans la limite des places)</p>
                     </div>
                 </div>
                 <div class="map-wrapper animate-on-scroll">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2904.5!2d5.3925!3d43.2631!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12c9c1234567890%3A0x1234567890abcdef!2sPalais%20des%20Sports%20de%20Marseille!5e0!3m2!1sfr!2sfr!4v1700000000000!5m2!1sfr!2sfr"
-                        width="100%"
-                        height="400"
-                        style="border:0; border-radius: 12px;"
-                        allowfullscreen=""
-                        loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"
+                        width="100%" height="400" style="border:0; border-radius: 12px;"
+                        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
                         title="Carte Google Maps — Palais des Sports de Marseille">
                     </iframe>
                 </div>
             </div>
         </section>
 
-        <!-- SECTION CTA / BILLETTERIE -->
-        <section class="section section-cta" id="billetterie" aria-label="Billetterie">
+        <!-- 6. SECTION CTA FINAL -->
+        <section class="section section-cta" aria-label="Réservation">
             <div class="container">
                 <div class="cta-block animate-scale">
                     <h2 class="cta-title">PRÊT À VIVRE<br><span class="gold">LE MATCH ?</span></h2>
                     <p class="cta-text">Rejoignez-nous le 27 mai 2026 au Palais des Sports de Marseille pour une soirée inoubliable.</p>
                     <div class="cta-buttons">
-                        <a href="https://handball-plandecuques.billetterie-club.fr/matchs/2061" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg">RÉSERVER MES PLACES</a>
+                        <a href="#billetterie" class="btn btn-primary btn-lg">RÉSERVER MES PLACES</a>
                         <a href="https://handball-plandecuques.fr" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-lg">DÉCOUVRIR LE CLUB</a>
                     </div>
                 </div>
@@ -286,11 +524,10 @@
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
                 </a>
             </div>
-            <p class="footer-copy">© 2026 Handball Plan de Cuques — Site événementiel</p>
+            <p class="footer-copy">&copy; 2026 Handball Plan de Cuques — Site événementiel</p>
         </div>
     </footer>
 
-    <!-- Performance: script en defer -->
-    <script src="script.js" defer></script>
+    <script src="script.js?v=20260325" defer></script>
 </body>
 </html>
